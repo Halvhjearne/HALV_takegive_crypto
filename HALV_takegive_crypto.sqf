@@ -1,6 +1,8 @@
 /*
 	HALV_takegive_crypto.sqf
 	by Halv
+	
+	Copyright (C) 2015  Halvhjearne > README.md
 */
 
 _player = _this select 0;

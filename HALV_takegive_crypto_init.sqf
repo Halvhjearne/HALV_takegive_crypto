@@ -1,6 +1,8 @@
 /*
 	HALV_takegive_crypto_init.sqf
 	by Halv
+	
+	Copyright (C) 2015  Halvhjearne > README.md
 */
 
 if(isServer)then{
