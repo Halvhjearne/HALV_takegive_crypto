@@ -11,6 +11,6 @@ _cIndex=EPOCH_customVars find 'Crypto';
 _vars = _player getVariable['VARS',[]+EPOCH_defaultVars_SEPXVar];
 _curcrypt = _vars select _cIndex;
 _newcrypt = ((_curcrypt+_nr)min 25000)max 0;
-[['effectCrypto',_newcrypt],(owner _player)]call EPOCH_sendPublicVariableClient;
+[['effectCrypto',round _newcrypt],(owner _player)]call EPOCH_sendPublicVariableClient;
 _vars set[_cIndex,_newcrypt];
 _player setVariable["VARS",_vars];
